@@ -1,45 +1,63 @@
-* {
-    margin:0px;
-    padding: 0px;
-    box-sizing: border-box;
-    border-radius: none;
-    font-family: Arial, Helvetica, sans-serif;
+footer {
+  background-color: #FFA500; /* Orange shade */
+  padding: 40px 20px;
+  text-align: center;
 }
-.navbar {
-    background-color:oldlace;
-    width: 100%;
-    height: 80px;
-    display: flex;
-    align-items: center;
+
+.contact-info, .social-media, .opening-hours, .navigation, .newsletter {
+  margin-bottom: 30px;
 }
-.logo2{
-    height: 70px;
-    width:100%;
-    align-self: left;
-    margin-left: 10px;
+
+.contact-info h3, .social-media h3, .opening-hours h3, .navigation h3, .newsletter h3 {
+  margin-bottom: 10px;
 }
-.options{
-    display: flex;
-    margin-left: 400px;
+
+.social-media ul {
+  list-style-type: none;
+  padding: 0;
 }
-.option {
-    color: #F9A03F;
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 20px;
+
+.social-media ul li {
+  display: inline;
+  margin-right: 10px;
 }
-.option1 {
-    background-color: #F9A03F;
-    font-size: 1.5rem;
-    margin-left: 20px;
-    border: 1px solid #F9A03F;
-    border-radius: 5px;
-    color:black;
-    padding: 2px;
-    padding-inline: 10px;
-    align-self: right;
+
+.social-media ul li:last-child {
+  margin-right: 0;
 }
-.border:hover {
-    border:2px solid #606C38;
+
+.navigation ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navigation ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.navigation ul li:last-child {
+  margin-right: 0;
+}
+
+.newsletter form {
+  margin-top: 10px;
+}
+
+.newsletter input[type="email"] {
+  width: 200px;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.newsletter button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: #0056b3;
 }
